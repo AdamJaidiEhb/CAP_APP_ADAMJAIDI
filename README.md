@@ -19,7 +19,6 @@ Een SAP CAP + Fiori Elements applicatie die data ophaalt uit een iFlow API via d
 
 ```bash
 git clone <repo-url>
-npm install -g @sap/cds-dk
 cd cap-api-fiori
 ```
 
