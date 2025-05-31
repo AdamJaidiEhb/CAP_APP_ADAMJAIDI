@@ -19,6 +19,7 @@ Een SAP CAP + Fiori Elements applicatie die data ophaalt uit een iFlow API via d
 
 ```bash
 git clone <repo-url>
+npm install -g @sap/cds-dk
 cd cap-api-fiori
 ```
 
@@ -31,10 +32,13 @@ npm install
 3. **Voeg `.env` toe in rootfolder**
 
 ```dotenv
-IFLOW_URL=https://...
-CLIENT_ID=...
-CLIENT_SECRET=...
-TOKEN_URL=https://.../oauth/token
+⚠️ Belangrijk:
+De iFlow (IFLOW_URL) in dit project is volledig door mij ontwikkeld.
+Echter, de gebruikte CLIENT_ID, CLIENT_SECRET en TOKEN_URL behoren tot de omgeving van mijn collega Milad Nesim.
+
+Reden: ik beschik momenteel niet over de juiste toegangsrechten om een service key aan te maken in mijn eigen SAP BTP Cloud Foundry-omgeving. Ondanks pogingen om toegang te verkrijgen (zoals beschreven in mijn e-mail aan de docent), heb ik tijdelijk de credentials van een collega gebruikt om mijn project te kunnen testen en integreren.
+
+Zodra ik toegang krijg tot mijn eigen omgeving, zal ik deze tijdelijke credentials vervangen door mijn eigen.
 ```
 
 4. **Start de app**
