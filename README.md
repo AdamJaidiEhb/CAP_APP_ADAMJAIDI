@@ -33,7 +33,7 @@ npm install
 
 ```dotenv
 ⚠️ Belangrijk:
-De iFlow (IFLOW_URL) in dit project is volledig door mij ontwikkeld.
+De iFlow (IFLOW_URL) in dit project is door mij ontwikkeld.
 Echter, de gebruikte CLIENT_ID, CLIENT_SECRET en TOKEN_URL behoren tot de omgeving van mijn collega Milad Nesim.
 
 Reden: ik beschik momenteel niet over de juiste toegangsrechten om een service key aan te maken in mijn eigen SAP BTP Cloud Foundry-omgeving. Ondanks pogingen om toegang te verkrijgen (zoals beschreven in mijn e-mail aan de docent), heb ik tijdelijk de credentials van een collega gebruikt om mijn project te kunnen testen en integreren.
