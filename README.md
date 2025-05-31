@@ -32,13 +32,11 @@ npm install
 3. **Voeg `.env` toe in rootfolder**
 
 ```dotenv
-⚠️ Belangrijk:
-De iFlow (IFLOW_URL) in dit project is door mij ontwikkeld.
-Echter, de gebruikte CLIENT_ID, CLIENT_SECRET en TOKEN_URL behoren tot de omgeving van mijn collega Milad Nesim.
+IFLOW_URL=https://41208216trial.it-cpitrial05-rt.cfapps.us10-001.hana.ondemand.com/http/cp008if002
+CLIENT_ID=sb-642165e1-4e47-4df1-9c0c-66b7cbbe60c9!b421096|it-rt-41208216trial!b26655
+CLIENT_SECRET=818825c8-6659-430d-bbe9-c5294647e3fa$YMyyVRxXDGlKfPYNwiGKVyyEcYmh2GplSDWljBcbeqY=
+TOKEN_URL=https://41208216trial.authentication.us10.hana.ondemand.com/oauth/token
 
-Reden: ik beschik momenteel niet over de juiste toegangsrechten om een service key aan te maken in mijn eigen SAP BTP Cloud Foundry-omgeving. Ondanks pogingen om toegang te verkrijgen (zoals beschreven in mijn e-mail aan de docent), heb ik tijdelijk de credentials van een collega gebruikt om mijn project te kunnen testen en integreren.
-
-Zodra ik toegang krijg tot mijn eigen omgeving, zal ik deze tijdelijke credentials vervangen door mijn eigen.
 ```
 
 4. **Start de app**
